@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/uos_foundation.css: {}
+  js:
+    js/uos_foundation.js: {}
