@@ -1,0 +1,25 @@
+uuid: be8860b2-340e-4103-8ebf-9268abe1d44c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uos_foundation
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: uos_foundation_branding
+theme: uos_foundation
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

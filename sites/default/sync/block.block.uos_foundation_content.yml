@@ -1,0 +1,22 @@
+uuid: 1d470c9c-4457-4c08-bdda-25ae9fd543c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uos_foundation
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: uos_foundation_content
+theme: uos_foundation
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

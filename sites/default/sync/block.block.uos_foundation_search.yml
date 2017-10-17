@@ -1,0 +1,22 @@
+uuid: 07e6032c-86ad-472e-bdd7-60f62f956d15
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - uos_foundation
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: uos_foundation_search
+theme: uos_foundation
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

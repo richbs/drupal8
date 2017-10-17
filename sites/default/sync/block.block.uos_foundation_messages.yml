@@ -1,0 +1,22 @@
+uuid: 3f13658c-f293-4e92-97a5-5020a90cb78f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uos_foundation
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: uos_foundation_messages
+theme: uos_foundation
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
