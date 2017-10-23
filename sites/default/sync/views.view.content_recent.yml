@@ -1,4 +1,4 @@
-uuid: 63e48d70-0928-4a68-9ba4-8addf5390ab6
+uuid: 592b8688-7b1e-4fa5-b206-ec667316356a
 langcode: en
 status: true
 dependencies:
@@ -258,7 +258,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: date
-      title: Changes
+      title: 'Recent content'
       header: {  }
       footer: {  }
       empty:
